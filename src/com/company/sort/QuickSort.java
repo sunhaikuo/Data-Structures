@@ -1,4 +1,6 @@
-package com.company.array;
+package com.company.sort;
+
+import com.company.com.company.util.Util;
 
 public class QuickSort {
 

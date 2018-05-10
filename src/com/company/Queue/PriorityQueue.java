@@ -1,4 +1,6 @@
-package com.company.array;
+package com.company.Queue;
+
+import com.company.com.company.util.Util;
 
 import java.util.Arrays;
 import java.util.Random;

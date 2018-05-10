@@ -1,4 +1,4 @@
-package com.company.array;
+package com.company.sort;
 
 /* TODO 解决数组完全有序的情况报错问题 */
 /* TODO 为什么快速排序要比归并排序要快? */
