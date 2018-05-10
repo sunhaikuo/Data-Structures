@@ -1,4 +1,6 @@
-package com.company.array;
+package com.company;
+
+import com.company.array.LeetCode;
 
 public class Main {
 

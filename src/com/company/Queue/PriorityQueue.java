@@ -1,4 +1,4 @@
-package com.company.Queue;
+package com.company.queue;
 
 import com.company.com.company.util.Util;
 

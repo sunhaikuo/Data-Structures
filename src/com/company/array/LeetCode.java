@@ -1,6 +1,6 @@
 package com.company.array;
 
-import com.company.Queue.PriorityQueue;
+import com.company.queue.PriorityQueue;
 
 public class LeetCode {
 
