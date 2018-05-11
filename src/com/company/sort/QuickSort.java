@@ -1,6 +1,6 @@
 package com.company.sort;
 
-import com.company.com.company.util.Util;
+import com.company.util.Util;
 
 public class QuickSort {
 

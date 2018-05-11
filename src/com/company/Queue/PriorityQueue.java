@@ -1,6 +1,6 @@
 package com.company.queue;
 
-import com.company.com.company.util.Util;
+import com.company.util.Util;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -17,7 +17,7 @@ public class PriorityQueue {
     private boolean isMax;
 
     //    构造一个随机数组 - 是否使用heapify
-    PriorityQueue(int capacity, boolean isHeapify, boolean isMax) {
+    public PriorityQueue(int capacity, boolean isHeapify, boolean isMax) {
         this.isMax = isMax;
         this.capacity = capacity;
         this.arr = new int[capacity];
@@ -37,14 +37,14 @@ public class PriorityQueue {
     }
 
     //    构造一个空数组
-    PriorityQueue(int capacity, boolean isMax) {
+    public PriorityQueue(int capacity, boolean isMax) {
         this.isMax = isMax;
         this.capacity = capacity;
         this.arr = new int[capacity];
     }
 
     //    构造一个随机数组 - 使用heapify
-    PriorityQueue(int[] rndArr, boolean isMax) {
+    public PriorityQueue(int[] rndArr, boolean isMax) {
         this.isMax = isMax;
         this.capacity = rndArr.length;
         this.heapify(rndArr);
