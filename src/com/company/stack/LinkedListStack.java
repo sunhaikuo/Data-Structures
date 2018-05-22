@@ -7,26 +7,26 @@ import com.company.Link.LinkedList_0522;
  *
  * @param <E>
  */
-public class StackWithLinkedList<E> implements IStack<E> {
+public class LinkedListStack<E> implements IStack<E> {
     private LinkedList_0522<E> list;
 
-    StackWithLinkedList() {
+    LinkedListStack() {
         this.list = new LinkedList_0522();
     }
 
     @Override
     public void push(E e) {
-        list.addLast(e);
+        list.addFirst(e);
     }
 
     @Override
     public E pop() {
-        return list.removeLast();
+        return list.removeFirst();
     }
 
     @Override
     public E peek() {
-        return list.getLast();
+        return list.getFirst();
     }
 
     @Override
@@ -42,14 +42,14 @@ public class StackWithLinkedList<E> implements IStack<E> {
     @Override
     public String toString() {
         StringBuffer sb = new StringBuffer();
-        sb.append("[");
+        sb.append("Top [");
         for (int i = 0; i < list.size(); i++) {
-            sb.append(list.get(i) + ", ");
+            sb.append(list.get(i));
             if (i != list.size() - 1) {
                 sb.append(", ");
             }
         }
-        sb.append("] Top");
+        sb.append("]");
         return sb.toString();
     }
 }
